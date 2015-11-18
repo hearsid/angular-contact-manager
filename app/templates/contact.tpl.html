@@ -1,12 +1,12 @@
 <div class="thumbnail">
-    <img class="media-object" src="app/img/faces/<%- avatar %>">
+    <img class="media-object" src="app/img/faces/{{contact.id}}.jpg">
 </div>
 <div class="media-heading">
     <h3>
-        <%- name %>
+        {{contact.name}}
         <small>
-            <a href="#contacts/edit/<%- id %>"><span class="glyphicon glyphicon-pencil"></span></a>
-            <a href="#contacts/delete/<%- id %>" class="delete-contract">
+            <a href="#contacts/edit/{{contact.id}}"><span class="glyphicon glyphicon-pencil"></span></a>
+            <a href="#contacts/delete/{{contact.id}}" class="delete-contract">
                 <span class="glyphicon glyphicon-trash"></span>
             </a>
         </small>
@@ -15,9 +15,9 @@
 <div class="media-body">
     <dl>
         <dt>Phone Number:</dt>
-        <dd><%- tel %></dd>
+        <dd ng-bind="contact.tel"></dd>
         <dt>Email:</dt>
-        <dd><%- email %></dd>
+        <dd ng-bind="contact.email"></dd>
     </dl>
 </div>
 <hr>
