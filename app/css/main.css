@@ -1,4 +1,13 @@
-div {
+.contact-image:hover {
+
+}
+
+@keyframes animate-image {
+    0% {
+    }
+}
+
+.contacts div {
     display: inline-block;
 }
 .bs-header {

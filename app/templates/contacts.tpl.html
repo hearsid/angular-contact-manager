@@ -3,7 +3,7 @@
     <a href="#contacts/new" class="btn btn-lg btn-outline" ng-click="addContact()">Add Contact</a>
 </p>
 <ul class="media-list row contacts-container">
-    <span ng-repeat="contact in vm.contacts">
+    <li ng-repeat="contact in vm.contacts" class="contacts media col-md-6 col-lg-4">
         <span ng-include="'app/templates/contact.tpl.html'"></span>
-    </span>
+    </li>
 </ul>
