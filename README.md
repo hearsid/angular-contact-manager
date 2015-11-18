@@ -12,7 +12,7 @@ Jasmine and karma were used to test the code , code was tested in phantomjs and 
 Some CSS3 properties were used for animation and better design .
 
 To run the application after cloning  :
->gulp server 
+>gulp serve
 Browser sync module enabled 
 To test the application :
 >karma start karma.conf.js
