@@ -5,11 +5,15 @@
     ContactsController.$inject = ['$scope','ContactsService'] ;
     function ContactsController(scope,ContactsService) {
 
-        scope.contacts = ContactsService.contacts ;
+        this.contacts = ContactsService.contacts ;
 
         scope.addContact = function() {
 
-        }
+        };
+
+        scope.editContact = function(id) {
+
+        };
 
     }
 

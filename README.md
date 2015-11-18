@@ -2,6 +2,7 @@ Angular Contact Manager
 ========================
 
 ## Architecture
+MVVM architectural pattern used .
 This is a small project so there was no need of making folders in the js folder .
 Closure have been used in most angular files to maintain proper scope .
 
