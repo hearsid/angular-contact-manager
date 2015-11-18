@@ -1,9 +1,10 @@
 (function(angular) {
     angular.module('app')
-        .controller('contactsController' , ContactsController) ;
+        .controller('ContactsController' , ContactsController) ;
 
     ContactsController.$inject = ['$scope'] ;
     function ContactsController(scope) {
+
 
 
     }

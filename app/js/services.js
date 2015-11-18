@@ -1,6 +1,6 @@
 (function(angular) {
     angular.module('app')
-        .factory('contactsService' , ContactsService) ;
+        .factory('ContactsService' , ContactsService) ;
 
     ContactsService.$inject = [];
     function ContactsService() {
