@@ -27,6 +27,9 @@
                     templateUrl: "app/templates/new-contact.tpl.html" ,
                     controller : function ($scope) {
                         $scope.title = "Add";
+                        $scope.name = "";
+                        $scope.email = "";
+                        $scope.tel = "";
                     }
                 })
 

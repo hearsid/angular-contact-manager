@@ -52,6 +52,7 @@
                 // transitionTo() promise will be rejected with
                 // a 'transition prevented' error
 
+
                 if (toState.name !== 'edit')
                     return;
 
