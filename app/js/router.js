@@ -12,14 +12,22 @@
                     url: "/",
                     templateUrl: "app/templates/contacts.tpl.html"
                 })
-                .state('contact.edit', {
-                    url: "/edit",
-                    templateUrl: "app/templates/new-contact.html"
+                .state('edit', {
+                    url: "/edit/:id",
+                    templateUrl: "app/templates/new-contact.tpl.html" ,
+                    controller : function ($scope ) {
+                        $scope.title = "Edit";
+
+
+                    }
 
                 })
-                .state('contact.add', {
+                .state('add', {
                     url: "/add",
-                    templateUrl: "app/templates/new-contact.html"
+                    templateUrl: "app/templates/new-contact.tpl.html" ,
+                    controller : function ($scope) {
+                        $scope.title = "Add";
+                    }
                 })
 
         });

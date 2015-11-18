@@ -17,3 +17,6 @@ To run the application after cloning  :
 Browser sync module enabled 
 To test the application :
 >karma start karma.conf.js
+
+Heroku link:
+http://angular-contacts-app.herokuapp.com/

@@ -5,8 +5,8 @@
     <h3>
         {{contact.name}}
         <small>
-            <a href="#/edit/{{contact.id}}"><span class="glyphicon glyphicon-pencil"></span></a>
-            <a href="#contacts/delete/{{contact.id}}" class="delete-contract">
+            <a ui-sref="edit({id:contact.id})"><span class="glyphicon glyphicon-pencil"></span></a>
+            <a ng-click="deleteContact($index)" class="delete-contract">
                 <span class="glyphicon glyphicon-trash"></span>
             </a>
         </small>
