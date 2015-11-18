@@ -1,0 +1,25 @@
+{
+  "name": "angular-contact-manager",
+  "version": "0.1",
+  "homepage": "https://github.com/dmytroyarmak/backbone-contact-manager",
+  "authors": [
+    "Siddharth Sharma <hearsid@gmail.com>"
+  ],
+  "description": "Backbone contact manager converted to angular",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "ui-router": "~0.2.15"
+  }
+}

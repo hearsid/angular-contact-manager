@@ -1,0 +1,19 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "Backbone Contact Manager ========================",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytroyarmak/backbone-contact-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytroyarmak/backbone-contact-manager/issues"
+  },
+  "homepage": "https://github.com/dmytroyarmak/backbone-contact-manager#readme"
+}
