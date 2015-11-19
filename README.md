@@ -14,9 +14,9 @@ Some CSS3 properties were used for animation and better design .
 
 To run the application after cloning  :
 >gulp serve
+
 Browser sync module enabled 
 To test the application :
+
 >karma start karma.conf.js
 
-Heroku link:
-http://angular-contacts-app.herokuapp.com/

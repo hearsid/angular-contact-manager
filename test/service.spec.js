@@ -1,11 +1,15 @@
 describe("Contacts Service " , function() {
 
-    beforeEach(function() {
-        angular.module('app')
-    }) ;
+    var ContactsService ;
+
+    beforeEach(module('app'));
+
+    beforeEach(inject(function(ContactsService) {
+
+    });
 
     it('should check if service exists' , inject(function(ContactsService){
-        expect(ContactsService).not.to.equal(null);
+        expect(ContactsService).not.to.equal(undefined);
     }));
 
     it('should check the first contact name to be Terrence' ,inject(function(ContactsService){

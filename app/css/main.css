@@ -29,7 +29,13 @@
 
 }
 
+.media-heading {
+    width:100%;
+}
 
+.media-body {
+    width:100%;
+}
 /* Add animation */
 .my-repeat-animation.ng-enter.ng-enter-active,
 .my-repeat-animation.ng-leave {
