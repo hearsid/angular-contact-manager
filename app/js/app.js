@@ -1,5 +1,6 @@
 (function(angular) {
     angular.module('app' ,
-        ['ui.router']);
+        ['ui.router' ,
+        'ngAnimate']);
 
 })(this.angular);
