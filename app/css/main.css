@@ -1,4 +1,10 @@
 /******** hearsid *********************************************/
+
+.contact-image {
+    border:1px solid darkgrey;
+    border-radius: 3px;
+    padding:2px;
+}
 .contact-image:hover {
 
     animation-name: scale-image;
@@ -17,7 +23,7 @@
         transform: rotate(-30deg);
     }
     80% {
-        border:2px solid mediumpurple;
+        border:5px solid mediumpurple;
         border-radius: 4px;
     }
 
@@ -46,6 +52,14 @@
     display: inline-block;
 }
 
+.media .thumbnail {
+    float: none !important;
+    width:100%;
+    border:0px;
+}
+li.contacts {
+    text-align: center;
+}
 /**************************************************************/
 .bs-header {
     position: relative;
