@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 ./
+web: node_modules/serve/bin/serve --port $PORT
