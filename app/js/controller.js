@@ -44,7 +44,7 @@
 
         scope.deleteContact = function (index) {
             vm.contacts.splice(index, 1);
-        }
+        };
 
 
         $rootScope.$on('$stateChangeStart',
