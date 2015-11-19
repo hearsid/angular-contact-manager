@@ -15,7 +15,11 @@ describe('Contacts Controller ', function() {
         });
     }));
 
-    it('says hello world!', function () {
+    it('should check if contacts controller exists' , function() {
+        expect(ContactsController).not.toEqual(undefined) ;
+    })
+
+    it('check total contacts', function () {
         expect(scope.greeting).toEqual("Hello world!");
     });
 
