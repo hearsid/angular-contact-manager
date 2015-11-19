@@ -6,7 +6,7 @@ describe("Contacts Service " , function() {
 
     beforeEach(inject(function(ContactsService) {
 
-    });
+    }));
 
     it('should check if service exists' , inject(function(ContactsService){
         expect(ContactsService).not.to.equal(undefined);
