@@ -1,4 +1,4 @@
-(function(angular) {
+/*(function(angular) {
     angular.module('app')
         .directive('contactsDirective' , ContactsDirective) ;
 
@@ -8,4 +8,4 @@
 
     }
 
-})(this.angular);
+})(this.angular);*/
