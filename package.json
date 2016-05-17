@@ -9,7 +9,12 @@
     "express": "^4.9.8"
 },
 "devDependencies" : {
-    "karma" : "*" 
+    "karma" : "*" ,
+    "jasmine-core" : "*" ,
+    "gulp" : "*" , 
+    "karma-jasmine" : "*" ,
+    "browser-sync" : "*" ,
+    "gulp-live-server" : "*"
     },
     "engines": {
         "node": "4.1.1"
