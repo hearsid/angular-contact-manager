@@ -4,10 +4,11 @@
     angular.module('app')
         .factory('ContactsService' , ContactsService) ;
 
-    ContactsService.$inject = [];
-    function ContactsService() {
+    ContactsService.$inject = ['$http', '$location'];
+    function ContactsService($http, $location) {
 
         var theObject = {
+
 
             // store some predefined contacts for now
             contacts: [
@@ -47,7 +48,15 @@
                     tel: '803-557-9815',
                     email: 'RodolfoPRobinett@jourrapide.com'
                 }
-            ]
+            ] ,
+
+            // make a get call here to get the contacts
+            getContacts : function() {
+              var no_of_contacts = $location.search().no_of_contacts;
+              var url = 'http://localhost:3000/getContacts?no_of_contacts='+no_of_contacts;
+              var contactsPromise = $http.get(url);
+              return contactsPromise;
+            }
         };
 
         return theObject ;

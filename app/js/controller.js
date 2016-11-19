@@ -7,7 +7,14 @@
     function ContactsController(scope, ContactsService, $state, $rootScope) {
 
         var vm = this;
-        scope.contacts = vm.contacts = ContactsService.contacts;
+        // scope.contacts = vm.contacts = ContactsService.contacts;
+
+        ContactsService.getContacts()
+            .then(function(response) {
+              vm.contacts = response.data ;    
+            }, function(error) {
+
+            });
 
         /*    scope.submit = function(title , id) {
          if(title == 'Add') {
